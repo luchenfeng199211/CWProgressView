@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7EBDDA1C3F609D00FF00C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7EBDD91C3F609D00FF00C1 /* main.m */; };
+		EE7EBDDD1C3F609D00FF00C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7EBDDC1C3F609D00FF00C1 /* AppDelegate.m */; };
+		EE7EBDE01C3F609D00FF00C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7EBDDF1C3F609D00FF00C1 /* ViewController.m */; };
+		EE7EBDE31C3F609D00FF00C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7EBDE11C3F609D00FF00C1 /* Main.storyboard */; };
+		EE7EBDE51C3F609D00FF00C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7EBDE41C3F609D00FF00C1 /* Assets.xcassets */; };
+		EE7EBDE81C3F609D00FF00C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7EBDE61C3F609D00FF00C1 /* LaunchScreen.storyboard */; };
+		EE7EBDF21C3F60E600FF00C1 /* CWProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7EBDF11C3F60E600FF00C1 /* CWProgressView.m */; };
+		EE7EBDF51C3F61A000FF00C1 /* UIColor+ColorFrom16.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7EBDF41C3F61A000FF00C1 /* UIColor+ColorFrom16.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE7EBDD51C3F609D00FF00C1 /* CWProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7EBDD91C3F609D00FF00C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7EBDDB1C3F609D00FF00C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE7EBDDC1C3F609D00FF00C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7EBDDE1C3F609D00FF00C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE7EBDDF1C3F609D00FF00C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE7EBDE21C3F609D00FF00C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7EBDE41C3F609D00FF00C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7EBDE71C3F609D00FF00C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7EBDE91C3F609D00FF00C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7EBDF01C3F60E600FF00C1 /* CWProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWProgressView.h; sourceTree = "<group>"; };
+		EE7EBDF11C3F60E600FF00C1 /* CWProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWProgressView.m; sourceTree = "<group>"; };
+		EE7EBDF31C3F61A000FF00C1 /* UIColor+ColorFrom16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorFrom16.h"; sourceTree = "<group>"; };
+		EE7EBDF41C3F61A000FF00C1 /* UIColor+ColorFrom16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorFrom16.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7EBDD21C3F609D00FF00C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7EBDCC1C3F609D00FF00C1 = {
+			isa = PBXGroup;
+			children = (
+				EE7EBDEF1C3F60D400FF00C1 /* CWProgressView */,
+				EE7EBDD71C3F609D00FF00C1 /* CWProgressView */,
+				EE7EBDD61C3F609D00FF00C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7EBDD61C3F609D00FF00C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7EBDD51C3F609D00FF00C1 /* CWProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7EBDD71C3F609D00FF00C1 /* CWProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EE7EBDDB1C3F609D00FF00C1 /* AppDelegate.h */,
+				EE7EBDDC1C3F609D00FF00C1 /* AppDelegate.m */,
+				EE7EBDDE1C3F609D00FF00C1 /* ViewController.h */,
+				EE7EBDDF1C3F609D00FF00C1 /* ViewController.m */,
+				EE7EBDE11C3F609D00FF00C1 /* Main.storyboard */,
+				EE7EBDE41C3F609D00FF00C1 /* Assets.xcassets */,
+				EE7EBDE61C3F609D00FF00C1 /* LaunchScreen.storyboard */,
+				EE7EBDE91C3F609D00FF00C1 /* Info.plist */,
+				EE7EBDD81C3F609D00FF00C1 /* Supporting Files */,
+			);
+			path = CWProgressView;
+			sourceTree = "<group>";
+		};
+		EE7EBDD81C3F609D00FF00C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7EBDD91C3F609D00FF00C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE7EBDEF1C3F60D400FF00C1 /* CWProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				EE7EBDF31C3F61A000FF00C1 /* UIColor+ColorFrom16.h */,
+				EE7EBDF41C3F61A000FF00C1 /* UIColor+ColorFrom16.m */,
+				EE7EBDF01C3F60E600FF00C1 /* CWProgressView.h */,
+				EE7EBDF11C3F60E600FF00C1 /* CWProgressView.m */,
+			);
+			name = CWProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7EBDD41C3F609D00FF00C1 /* CWProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7EBDEC1C3F609D00FF00C1 /* Build configuration list for PBXNativeTarget "CWProgressView" */;
+			buildPhases = (
+				EE7EBDD11C3F609D00FF00C1 /* Sources */,
+				EE7EBDD21C3F609D00FF00C1 /* Frameworks */,
+				EE7EBDD31C3F609D00FF00C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWProgressView;
+			productName = CWProgressView;
+			productReference = EE7EBDD51C3F609D00FF00C1 /* CWProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7EBDCD1C3F609D00FF00C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "陆尘风";
+				TargetAttributes = {
+					EE7EBDD41C3F609D00FF00C1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EE7EBDD01C3F609D00FF00C1 /* Build configuration list for PBXProject "CWProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7EBDCC1C3F609D00FF00C1;
+			productRefGroup = EE7EBDD61C3F609D00FF00C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7EBDD41C3F609D00FF00C1 /* CWProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7EBDD31C3F609D00FF00C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7EBDE81C3F609D00FF00C1 /* LaunchScreen.storyboard in Resources */,
+				EE7EBDE51C3F609D00FF00C1 /* Assets.xcassets in Resources */,
+				EE7EBDE31C3F609D00FF00C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7EBDD11C3F609D00FF00C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7EBDE01C3F609D00FF00C1 /* ViewController.m in Sources */,
+				EE7EBDF21C3F60E600FF00C1 /* CWProgressView.m in Sources */,
+				EE7EBDF51C3F61A000FF00C1 /* UIColor+ColorFrom16.m in Sources */,
+				EE7EBDDD1C3F609D00FF00C1 /* AppDelegate.m in Sources */,
+				EE7EBDDA1C3F609D00FF00C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE7EBDE11C3F609D00FF00C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7EBDE21C3F609D00FF00C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7EBDE61C3F609D00FF00C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7EBDE71C3F609D00FF00C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7EBDEA1C3F609D00FF00C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE7EBDEB1C3F609D00FF00C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7EBDED1C3F609D00FF00C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 忠 文 (ZLP9655BJQ)";
+				INFOPLIST_FILE = CWProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newzone.CWProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE7EBDEE1C3F609D00FF00C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CWProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newzone.CWProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7EBDD01C3F609D00FF00C1 /* Build configuration list for PBXProject "CWProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7EBDEA1C3F609D00FF00C1 /* Debug */,
+				EE7EBDEB1C3F609D00FF00C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7EBDEC1C3F609D00FF00C1 /* Build configuration list for PBXNativeTarget "CWProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7EBDED1C3F609D00FF00C1 /* Debug */,
+				EE7EBDEE1C3F609D00FF00C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7EBDCD1C3F609D00FF00C1 /* Project object */;
+}
