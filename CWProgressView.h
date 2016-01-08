@@ -38,4 +38,9 @@ typedef enum{
  */
 @property (nonatomic,assign) BOOL isAnimation;
 
+/*
+ *环形进度条宽度
+ */
+@property (nonatomic,assign) float ringWidth;
+
 @end
