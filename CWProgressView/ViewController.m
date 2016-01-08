@@ -34,6 +34,7 @@
     _progress2.isAnimation = YES;
     _progress2.progress = 0.9876;
     _progress2.progressColor = [UIColor purpleColor];
+    _progress2.ringWidth = 3;
     [self.view addSubview:_progress2];
 }
 

@@ -190,6 +190,7 @@
         CGContextStrokePath(context);
         CGContextFillPath(context);
     }else{
+        float ringWidth = _ringWidth>0?_ringWidth:5;
         if (_progress == 1) {
             CGPoint center = CGPointMake(rect.size.width / 2, rect.size.height / 2);
             CGContextBeginPath(context);
@@ -201,7 +202,7 @@
             //绘制进度label背景
             CGContextBeginPath(context);
             CGContextMoveToPoint(context, center.x, center.y);
-            CGContextAddArc(context, center.x, center.y, rect.size.height/2.0-_ringWidth?_ringWidth:5, -0.5*M_PI, 1.5*M_PI, 0);
+            CGContextAddArc(context, center.x, center.y, rect.size.height/2.0-ringWidth, -0.5*M_PI, 1.5*M_PI, 0);
             CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
             CGContextFillPath(context);
         }else{
@@ -216,7 +217,7 @@
             //绘制进度label背景
             CGContextBeginPath(context);
             CGContextMoveToPoint(context, center.x, center.y);
-            CGContextAddArc(context, center.x, center.y, rect.size.height/2.0-_ringWidth?_ringWidth:5, -0.5*M_PI, 1.5*M_PI, 0);
+            CGContextAddArc(context, center.x, center.y, rect.size.height/2.0-ringWidth, -0.5*M_PI, 1.5*M_PI, 0);
             CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
             CGContextFillPath(context);
         }
