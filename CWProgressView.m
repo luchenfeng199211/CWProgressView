@@ -9,7 +9,7 @@
 #import "CWProgressView.h"
 #import "UIColor+ColorFrom16.h"
 
-#define NZ_PROGRESS_BG_COLOR [UIColor colorWithRed:218/255.0 green:221/255.0 blue:221/255.0 alpha:1]
+#define CW_PROGRESS_BG_COLOR [UIColor colorWithRed:218/255.0 green:221/255.0 blue:221/255.0 alpha:1]
 
 @interface CWProgressView()
 {
@@ -83,13 +83,14 @@
                 [_vTimer invalidate];
                 _vTimer = nil;
             }
-            _vTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(incrementProgress:) userInfo:nil repeats:YES];
+            _vTimer = [NSTimer scheduledTimerWithTimeInterval:0.008 target:self selector:@selector(incrementProgress:) userInfo:nil repeats:YES];
         }
     }
     else
     {
         _progress = progress;
     }
+    [self setNeedsDisplay];
 }
 
 - (void)setProgressColor:(UIColor *)progressColor
@@ -132,7 +133,7 @@
             cornerRadius = rect.size.height/2.0;
         }
         UIBezierPath *bgPath = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:cornerRadius];
-        CGContextSetFillColorWithColor(context, NZ_PROGRESS_BG_COLOR.CGColor);
+        CGContextSetFillColorWithColor(context, CW_PROGRESS_BG_COLOR.CGColor);
         [bgPath fill];
         
         //绘制背景阴影
@@ -154,7 +155,7 @@
         CGContextBeginPath(context);
         CGContextMoveToPoint(context, center.x, center.y);
         CGContextAddArc(context, center.x, center.y, rect.size.height/2.0, -0.5*M_PI, 1.5*M_PI, 0);
-        CGContextSetFillColorWithColor(context, NZ_PROGRESS_BG_COLOR.CGColor);
+        CGContextSetFillColorWithColor(context, CW_PROGRESS_BG_COLOR.CGColor);
         CGContextFillPath(context);
     }
 }
