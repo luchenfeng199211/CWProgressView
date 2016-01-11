@@ -34,6 +34,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        _isRect = YES;
         _isAnimation = YES;
         _type = NZProgressTypeDefault;
     }
@@ -96,7 +97,11 @@
 - (void)setProgressColor:(UIColor *)progressColor
 {
     _progressColor = progressColor;
-    _progressText.textColor = progressColor?progressColor:[UIColor colorWithHex:0x999999 alpha:1];
+}
+
+- (void)setTextColor:(UIColor *)textColor
+{
+    _textColor = textColor;
 }
 
 - (void)drawRect:(CGRect)rect
@@ -225,6 +230,7 @@
     }
     NSString* text = [NSString stringWithFormat:@"%.2f%%",(self.progress > 0.01 ? self.progress : 0) * 100];
     _progressText.text = text;
+    _progressText.textColor = self.textColor?self.textColor:[UIColor colorWithHex:0x999999 alpha:1];
 }
 
 //进度条增长动画

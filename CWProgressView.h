@@ -16,6 +16,10 @@ typedef enum{
 @interface CWProgressView : UIView
 
 /*
+ *进度文字颜色
+ */
+@property (nonatomic,strong) UIColor *textColor;
+/*
  *进度条进度
  */
 @property (nonatomic,assign) float progress;
@@ -29,12 +33,12 @@ typedef enum{
 @property (nonatomic,assign) NZProgressType type;
 
 /*
- *默认风格进度条是否为圆角
+ *默认风格进度条是否为圆角，默认为YES
  */
 @property (nonatomic,assign) BOOL isRect;
 
 /*
- *是否使用动画效果
+ *是否使用动画效果，默认为YES
  */
 @property (nonatomic,assign) BOOL isAnimation;
 

@@ -23,15 +23,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     _progress1 = [[CWProgressView alloc] initWithFrame:CGRectMake(10, 80, self.view.bounds.size.width-20, 20)];
     _progress1.type = NZProgressTypeDefault;
-    _progress1.isAnimation = YES;
+//    _progress1.isAnimation = YES;
+    _progress1.textColor = [UIColor redColor];
     _progress1.progress = 0.9876;
     _progress1.progressColor = [UIColor purpleColor];
-    _progress1.isRect = YES;
+//    _progress1.isRect = YES;
     [self.view addSubview:_progress1];
     
     _progress2 = [[CWProgressView alloc] initWithFrame:CGRectMake(10, 120, 100, 100)];
     _progress2.type = NZProgressTypeRing;
-    _progress2.isAnimation = YES;
+//    _progress2.isAnimation = YES;
+    _progress2.textColor = [UIColor blueColor];
     _progress2.progress = 0.9876;
     _progress2.progressColor = [UIColor purpleColor];
     _progress2.ringWidth = 3;
