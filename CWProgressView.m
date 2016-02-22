@@ -85,6 +85,7 @@
                 _vTimer = nil;
             }
             _vTimer = [NSTimer scheduledTimerWithTimeInterval:0.008 target:self selector:@selector(incrementProgress:) userInfo:nil repeats:YES];
+            [[NSRunLoop currentRunLoop] addTimer:_vTimer forMode:UITrackingRunLoopMode];
         }
     }
     else

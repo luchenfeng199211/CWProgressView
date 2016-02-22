@@ -284,6 +284,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: 忠 文 (ZLP9655BJQ)";
 				INFOPLIST_FILE = CWProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.newzone.CWProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -295,6 +299,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CWProgressView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.newzone.CWProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
