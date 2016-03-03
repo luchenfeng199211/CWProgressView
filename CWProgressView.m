@@ -229,7 +229,7 @@
             CGContextFillPath(context);
         }
     }
-    NSString* text = [NSString stringWithFormat:@"%.2f%%",(self.progress > 0.01 ? self.progress : 0) * 100];
+    NSString* text = [NSString stringWithFormat:@"%.2f%%",(self.progress > 0.00001 ? self.progress : 0) * 100];
     _progressText.text = text;
     _progressText.textColor = self.textColor?self.textColor:[UIColor colorWithHex:0x999999 alpha:1];
 }
